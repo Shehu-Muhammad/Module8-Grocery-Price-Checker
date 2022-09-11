@@ -1,0 +1,23 @@
+# Module 8 - Group Project - Grocery Price Checker
+- Develop an idea for a web site or application that meets a need
+- Documentation that outlines research, ideation and selection process for a website or web application project that will be presented in a product pitch.
+- Create and document a project plan that includes scope, deliverables, communication, and collaboration.
+- A documented project plan that includes:
+  - Project scope and web site/app specifications
+  - Deliverales timeline
+  - Team roles and responsibilities
+  - Collaboration plan and workflow with selected tools like Trello, GitHub and Figma
+  - Process for writing, deploying and testing code
+- A GitHub repository successfully showing completion of project plan.
+- Documented learning from plan deviations.
+- Develop a website or web application that meets project specifications.
+- A website or web applications that meets all project scope and expectations or documented justifications for deviations.
+- Create a presentation on the overall project and website or web application.
+- A complete group presentation of your final project that should include:
+  - An introduction of team members and their roles
+  - An explanation of the reason for the project and the need it serves
+  - A summary of the design process including research, design decisions, successes and lessons learned
+  - An outline of the project plan, justification for any deviations and communicate lessons learned
+  - An explanation of the chosen technology stack
+  - A showcase and demonstration of how the website or application works and meets team project specifications
+  - A plan for future development including resources needed
