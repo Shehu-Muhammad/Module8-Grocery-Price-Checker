@@ -1,7 +1,7 @@
-<?php 
+<!--?php 
 include "includes/inc.dbc.php";
 session_start();
-?>
+?-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -16,7 +16,7 @@ session_start();
             <ul>
                 <li>
                     <a href="index.php">
-                        Home
+                        <img src="Module8-Grocery-Price-Checker\images\logo.png" alt="Munni Logo">
                     </a>
                 </li>
                 <li>

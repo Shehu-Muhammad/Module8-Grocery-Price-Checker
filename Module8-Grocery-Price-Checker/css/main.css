@@ -1,4 +1,30 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
+body {
+    background-color: #1B9AAA;
+}
+nav {
+    background-color: #F8FFE5;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+img {
+    height: 40px;
+    width: auto;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+    a {
+        text-decoration: none;
+    }
+    li {
+        align-content: center;
+    }
