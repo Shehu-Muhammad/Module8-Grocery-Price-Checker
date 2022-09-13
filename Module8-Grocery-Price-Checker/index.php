@@ -14,9 +14,17 @@ session_start();
     <body>
         <nav>
             <ul>
-                <li>
+                <li id="logo">
                     <a href="index.php">
-                        <img src="Module8-Grocery-Price-Checker\images\logo.png" alt="Munni Logo">
+                        <img src="images\logo.png" alt="Munni Logo">
+                    </a>
+                </li>
+                <li id="search">
+                    search bar placeholder
+                </li>
+                <li>
+                    <a href="signup.php">
+                        Shopping List
                     </a>
                 </li>
                 <li>
