@@ -1,7 +1,7 @@
-<?php 
+<!--?php 
 include "includes/inc.dbc.php";
 session_start();
-?>
+?-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -14,9 +14,17 @@ session_start();
     <body>
         <nav>
             <ul>
-                <li>
+            <li id="logo">
                     <a href="index.php">
-                        Home
+                        <img src="images\logo.png" alt="Munni Logo">
+                    </a>
+                </li>
+                <li id="search">
+                    search bar placeholder
+                </li>
+                <li>
+                    <a href="#">
+                        Shopping List
                     </a>
                 </li>
                 <li>

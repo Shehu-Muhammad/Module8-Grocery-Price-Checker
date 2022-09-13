@@ -1,7 +1,11 @@
 body {
     background-color: #1B9AAA;
+    color: #3d1f00;
     padding: 0;
     margin: 0;
+}
+h1, h3 {
+    margin-top: 120px;
 }
 nav {
     background-color: #F8FFE5;

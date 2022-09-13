@@ -23,7 +23,7 @@ session_start();
                     search bar placeholder
                 </li>
                 <li>
-                    <a href="signup.php">
+                    <a href="#">
                         Shopping List
                     </a>
                 </li>
