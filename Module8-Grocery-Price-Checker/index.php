@@ -69,6 +69,6 @@ session_start();
     
 ?> 
         
-         <p>What are you hungry for today
+         <p>What are you hungry for today</p>
     </body>
 </html>
