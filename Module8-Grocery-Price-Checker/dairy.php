@@ -15,5 +15,6 @@
 <?php
     getProductDetailsfromDatabase($databaseConnection, 4); 
 ?>
+    <script src="scripts/index.js"></script>
     </body>
 </html>
