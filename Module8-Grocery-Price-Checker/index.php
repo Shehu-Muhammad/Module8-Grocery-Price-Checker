@@ -68,5 +68,49 @@ session_start();
 <?php
     
 ?>
+
+<p>What are you hungry for today
+</p>
+  <br>
+  <section class="selection">
+    <div class="choice">
+      <a href="vegtables.php" class="veggies">
+        <img src="images/vegetables.jpg">
+        <p>Vegetables</p>
+      </a>
+    </div>
+    <div class="choice">
+      <a href="fruits.php" class="fruits">
+        <img src="images/fruits.jpg">
+        <p>Fruits</p>
+      </a>
+    </div>
+    <div class="choice">
+      <a href="protein.php" class="meats"> 
+        <img src="images/meat.jpg">
+        <p>Meat and Fish</>
+      </a>
+    </div>
+    <div class="choice">
+      <a href="grains.php" class="grains">
+        <img src="images/grains.jpg">
+        <p>Grains</p>
+      </a>
+      
+    </div>
+    <div class="choice">
+      <a href="dairy.php" class="dairy">
+        <img src="images/dairy.jpg">
+        <p>Dairy</p>
+      </a>
+    </div>
+    <div class="choice">
+      <a href="snacks.php" class="junk">
+        <img src="images/junk.jpg">
+        <p>Snacks</p>
+      </a>
+    </div>
+  </section>
+        
     </body>
 </html>
