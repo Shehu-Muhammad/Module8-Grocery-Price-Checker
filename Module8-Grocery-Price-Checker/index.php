@@ -67,6 +67,8 @@ session_start();
 ?>
 <?php
     
-?>
+?> 
+        
+         <p>What are you hungry for today
     </body>
 </html>
