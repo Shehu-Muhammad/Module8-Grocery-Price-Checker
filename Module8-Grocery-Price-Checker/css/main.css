@@ -47,3 +47,115 @@ ul {
         #search {
             width: 25%;
         }
+
+.selection{
+  background-image: url("/images/lunchtray.png"); 
+/*   margin-top: 10%; */
+  margin-left:auto;
+  margin-right:auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+
+}
+
+ .choice{
+display:inline-flex; 
+}
+  
+
+/* .choice:hover{
+  display:inline-block;
+  
+} */
+
+.veggies{
+  position: relative;
+  top: 21%;
+  left: 22%;
+}
+
+.veggies img{
+  width: 12%;
+  height: 7%;
+}
+
+.fruits{
+  position: relative;
+  top: 15%;
+  left: 39%;
+}
+
+.fruits img{
+  width: 237px;
+  height: 340px;
+}
+
+.meats{
+  position: relative;
+  top: 300px;
+  left: 16%;
+  
+}
+
+.meats img{
+  width: 237px;
+  height: 340px;
+}
+
+.selection{
+    background-image: url("/images/lunchtray.png"); 
+  /*   margin-top: 10%; */
+    margin-left:auto;
+    margin-right:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+  
+  }
+  
+  /* .choice{
+  display:inline-flex; 
+  }*/
+    
+  
+  /* .choice:hover{
+    display:inline-block;
+    
+  } */
+  
+  .veggies{
+    position: relative;
+    top: 21%;
+    left: 22%;
+  }
+  
+  .veggies img{
+    width: 12%;
+    height: 7%;
+  }
+  
+  .fruits{
+    position: relative;
+    top: 15%;
+    left: 39%;
+  }
+  
+  .fruits img{
+    width: 237px;
+    height: 340px;
+  }
+  
+  .meats{
+    position: relative;
+    top: 300px;
+    left: 16%;
+    
+  }
+  
+  .meats img{
+    width: 237px;
+    height: 340px;
+  }
