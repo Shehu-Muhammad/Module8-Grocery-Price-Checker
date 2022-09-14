@@ -16,7 +16,7 @@ session_start();
             <ul>
                 <li id="logo">
                     <a href="index.php">
-                        <img src="images\logo.png" alt="Munni Logo">
+                        <img class="logo" src="images\logo.png" alt="Munni Logo">
                     </a>
                 </li>
                 <li id="search">

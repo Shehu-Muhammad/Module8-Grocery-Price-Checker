@@ -16,7 +16,7 @@ session_start();
             <ul>
             <li id="logo">
                     <a href="index.php">
-                        <img src="images\logo.png" alt="Munni Logo">
+                        <img class="logo" src="images\logo.png" alt="Munni Logo">
                     </a>
                 </li>
                 <li id="search">
@@ -73,8 +73,8 @@ session_start();
         </span>
         <h3>Login</h3>
         <form action="login.php" method="post">
-            <input type="text" name="username" placeholder="username">
-            <input type="password" name="password" placeholder="password">
+            <input type="text" name="username" placeholder="Username">
+            <input type="password" name="password" placeholder="Password">
             <input type="submit" name="loginClicked" placeholder="Login">
         </form>
     </body>

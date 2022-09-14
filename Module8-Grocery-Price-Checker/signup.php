@@ -16,7 +16,7 @@ session_start();
             <ul>
             <li id="logo">
                     <a href="index.php">
-                        <img src="images\logo.png" alt="Munni Logo">
+                        <img class="logo" src="images\logo.png" alt="Munni Logo">
                     </a>
                 </li>
                 <li id="search">
@@ -86,8 +86,8 @@ session_start();
             <input type="text" name="firstName" placeholder="First Name">
             <input type="text" name="lastName" placeholder="Last Name">
             <input type="email" name="email" placeholder="E-mail">
-            <input type="text" name="username" placeholder="username">
-            <input type="password" name="password" placeholder="password">
+            <input type="text" name="username" placeholder="Username">
+            <input type="password" name="password" placeholder="Password">
             <input type="password" name="repeatPassword" placeholder="Re-enter password">
             <input type="submit" name="signUpClicked" placeholder="Join">
         </form>

@@ -5,8 +5,40 @@ body {
     margin: 0;
 }
 h1, h3 {
-    margin-top: 120px;
+    text-align: center;
+    margin-top: 130px;
 }
+form {
+    background-color: #D17C1F;
+    width: 50%;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin: auto;
+}
+input[type="text"], input[type="email"], input[type="password"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border-radius: 2px;
+    border: 1px solid #1e352f;
+    box-sizing: border-box;
+    justify-self: center;
+}
+input[type="submit"] {
+    background-color: white; 
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: black; 
+    border: 2px solid #698f3f;
+    border-radius: 4px;
+  }
+  input[type="submit"]:hover {
+    background-color: #698f3f;
+    color: white;
+  }
 nav {
     background-color: #F8FFE5;
     padding: 0;
@@ -16,7 +48,7 @@ nav {
     position: fixed;
     top: 0;
 }
-img {
+img.logo {
     height: 80px;
     width: auto;
 }
