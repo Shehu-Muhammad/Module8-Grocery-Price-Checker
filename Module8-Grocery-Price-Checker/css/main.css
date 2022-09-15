@@ -1,3 +1,7 @@
+* {
+   font-family: 'Amatic SC', cursive;
+}
+
 body {
     background-color: #1B9AAA;
     color: #3d1f00;
@@ -55,6 +59,7 @@ nav {
     width: 100%;
     position: fixed;
     top: 0;
+    font-size: large;
 }
 img.logo {
     height: 80px;
@@ -103,7 +108,7 @@ ul {
     padding: 8px;
   }
   
-  .container .btn {
+  .container .btn1 {
     position: absolute;
     top: 35%;
     left: 55%;
@@ -111,13 +116,90 @@ ul {
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
     color: #F8FFE5;
-    font-size: 16px;
+    font-size: px;
     padding: 16px 30px;
     border: none;
     cursor: pointer;
     text-align: center;
+    font-family: 'Amatic SC', cursive;
   }
-  
+  .container .btn2 {
+    position: absolute;
+    top: 63%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: #F8FFE5;
+    font-size: px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+  }
+  .container .btn3 {
+    position: absolute;
+    top: 32%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: #F8FFE5;
+    font-size: px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+  }
+  .container .btn4 {
+    position: absolute;
+    top: 65%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: #F8FFE5;
+    font-size: px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+  }
+  .container .btn5 {
+    position: absolute;
+    top: 23%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: #F8FFE5;
+    font-size: px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+  }
+  .container .btn6 {
+    position: absolute;
+    top: 69%;
+    left: 90.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: #F8FFE5;
+    font-size: px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive; 
+  }
+
+
   .container .btn:hover {
     background-color: transparent;
     color: #fffff0;

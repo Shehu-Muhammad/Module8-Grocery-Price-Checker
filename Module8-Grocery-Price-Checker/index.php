@@ -10,8 +10,8 @@ session_start();
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Shadows+Into+Light&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
@@ -75,12 +75,12 @@ session_start();
          <p>What are you hungry for today</p>
         <div class="container">
             <img src="images\myplate-brand--labelled.png" alt="MyPlate Nutrition">
-            <button class="btn">Fruit</button>
-            <!--button class="btn">Veggies</button>
-            <button class="btn">Grains</button>
-            <button class="btn">Protein</button>
-            <button class="btn">Dairy</button>
-            <button class="btn">Snacks</button-->
+            <a href="fruits.php" class="btn1">Fruit</a>
+            <a href="vegetables.php" class="btn2">Veggies</a>
+            <a href="grains.php" class="btn3">Grains</a>
+            <a href="protein.php" class="btn4">Protein</a>
+            <a href="dairy.php" class="btn5">Dairy</a>
+            <a href="snacks.php" class="btn6">Snacks</a>
         </div>
     </body>
 </html>
