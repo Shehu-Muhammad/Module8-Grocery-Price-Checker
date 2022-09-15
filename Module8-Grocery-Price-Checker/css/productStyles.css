@@ -1,3 +1,54 @@
+body {
+    background-color: #1B9AAA;
+    color: #3d1f00;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    margin-top: 130px;
+}
+nav {
+    background-color: #F8FFE5;
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+img.logo {
+    height: 80px;
+    width: auto;
+}
+ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding-inline-end: 40px;
+    justify-content: space-between;
+}
+    a {
+        text-decoration: none;
+        color: #1E352F;
+    }
+    
+        li a:hover {
+            color: #698f3f;
+            cursor: pointer;
+        }
+
+    li {
+        align-self: center;
+    }
+        #logo {
+            width: 50%;
+        }
+        #search {
+            width: 25%;
+        }
 img {
     width: 300px;
     height: 250px;
@@ -9,6 +60,7 @@ img {
     width: 300px;
     height: 240px;
     border: 1px solid #f1f1f1;
+    display: inline-block;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
