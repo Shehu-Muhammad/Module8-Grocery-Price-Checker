@@ -7,10 +7,13 @@ body {
 h1, h3 {
     text-align: center;
     margin-top: 130px;
+    margin-bottom: 5px;
     color: #3d1f00;
 }
 p{
     text-align: center;
+    margin-top: 1px;
+    margin-bottom: 5px;
 }
 form {
     background-color: #D17C1F;
@@ -84,3 +87,38 @@ ul {
         #search {
             width: 25%;
         }
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+    padding: 8px;
+  }
+  
+  .container .btn {
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: #F8FFE5;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .container .btn:hover {
+    background-color: transparent;
+    color: #fffff0;
+  }

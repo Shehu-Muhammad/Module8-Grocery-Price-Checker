@@ -70,5 +70,14 @@ session_start();
 ?> 
         
          <p>What are you hungry for today</p>
+        <div class="container">
+            <img src="images\myplate-brand--labelled.png" alt="MyPlate Nutrition">
+            <button class="btn">Fruit</button>
+            <!--button class="btn">Veggies</button>
+            <button class="btn">Grains</button>
+            <button class="btn">Protein</button>
+            <button class="btn">Dairy</button>
+            <button class="btn">Snacks</button-->
+        </div>
     </body>
 </html>
