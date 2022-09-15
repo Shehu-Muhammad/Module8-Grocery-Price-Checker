@@ -7,6 +7,10 @@ body {
 h1, h3 {
     text-align: center;
     margin-top: 130px;
+    color: #3d1f00;
+}
+p{
+    text-align: center;
 }
 form {
     background-color: #D17C1F;
@@ -25,9 +29,10 @@ input[type="text"], input[type="email"], input[type="password"]{
     border: 1px solid #1e352f;
     box-sizing: border-box;
     justify-self: center;
+    background-color: #F8FFE5;
 }
 input[type="submit"] {
-    background-color: white; 
+    background-color: #F8FFE5; 
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -37,7 +42,7 @@ input[type="submit"] {
   }
   input[type="submit"]:hover {
     background-color: #698f3f;
-    color: white;
+    color: #fffff0;
   }
 nav {
     background-color: #F8FFE5;

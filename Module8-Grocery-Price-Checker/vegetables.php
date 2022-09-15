@@ -53,24 +53,14 @@
 ?>
             </ul>
         </nav>
-<?php 
-    if( isset( $_SESSION['userId'] ) ) {
-?>
-        <h1>Welcome to Munni <?php echo( $_SESSION['username'] )?></h1>
-<?php
-    $userId = $_SESSION['userId'];
-    } else {
-?>
-        <h1>Welcome to Munni</h1>
-<?php
-    }
-?>
-<?php
-    
-?> 
+/*Place category name here*/
+
+<div class="center"> 
 <?php
     getProductDetailsfromDatabase($databaseConnection, 1); 
 ?>
+</div> 
+
     <script src="scripts/index.js"></script>
     </body>
 </html>

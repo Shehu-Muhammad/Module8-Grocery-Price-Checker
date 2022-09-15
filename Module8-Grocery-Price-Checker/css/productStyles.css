@@ -4,10 +4,6 @@ body {
     padding: 0;
     margin: 0;
 }
-h1 {
-    text-align: center;
-    margin-top: 130px;
-}
 nav {
     background-color: #F8FFE5;
     padding: 0;
@@ -49,18 +45,32 @@ ul {
         #search {
             width: 25%;
         }
+div.center {
+    margin-top: 130px;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
 img {
-    width: 300px;
-    height: 250px;
+    width: 301px;
+    height: 251px;
+    object-fit: cover;
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
     width: 300px;
-    height: 240px;
-    border: 1px solid #f1f1f1;
-    display: inline-block;
+    height: 250px;
+    border: 8px solid #964b00;
+    border-radius: 6px;
+    display: inline-grid;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -90,13 +100,23 @@ img {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-    background-color: #bbb;
-    color: black;
+    background-color: #698f3f;
+    color: #1e352f;
 }
 
 /* Style the back side */
 .flip-card-back {
-    background-color: dodgerblue;
-    color: white;
+    background-color: #1e352f;
+    color: #F8FFE5;
     transform: rotateY(180deg);
+}
+
+/*style +*/
+button {
+    border-radius: 50px;
+    padding: 2px 6px;
+    color: #F8FFE5;
+    background-color: #D17C1F;
+    border: none;
+    font-size: large;
 }
